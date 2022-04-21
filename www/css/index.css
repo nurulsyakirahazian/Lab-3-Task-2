@@ -1,0 +1,42 @@
+th {
+    background-color: rgb(109, 122, 215);
+    color: white;   
+} 
+
+tbody {
+    box-shadow: 0 8px 16px rgba(0,0,0,.15)!important;
+  }
+
+.table-hover{
+    background-color: rgb(241, 241, 249);
+}
+  
+th,td{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+tr:hover {
+    background-color: #ffff99;
+  }
+
+
+table.centre{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+th:first-of-type {
+    border-top-left-radius: 10px;
+  }
+th:last-of-type {
+    border-top-right-radius: 10px;
+  }
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+  }
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+  }
